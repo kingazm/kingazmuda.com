@@ -8,7 +8,7 @@ import projects from '../../data/projects.json';
 
 export default function Scaffold() {
   return (
-    <div className="min-h-screen bg-[#0A0F1E]">
+    <div className="min-h-screen bg-gradient-to-b from-[#0D1526] to-[#0A0F1E]">
       
       <div className="mx-auto max-w-screen-xl px-6 md:px-12 lg:px-24">
         <div className="lg:flex lg:gap-12 justify-between">
