@@ -1,6 +1,6 @@
 import Hero from "../sections/Hero";
 import Socials from "../reusable/Socials";
-import Nav from "../reusable/Nav";
+import Nav from "../sections/Nav";
 import { Personal } from "@/types";
 
 export default function LeftPanel({ personal }: { personal: Personal }) {
