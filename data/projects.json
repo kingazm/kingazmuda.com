@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Project 1",
+        "description": "Description of project 1.",
+        "link": "",
+        "stack": ["Java", "Tech 2", "Tech 3"]
+    },
+    {
+        "name": "Project 2",
+        "description": "Description of project 2.",
+        "link": "",
+        "stack": ["Tech A", "Tech B"]
+    },
+    {
+        "name": "Project 3",
+        "description": "Description of project 3.",
+        "link": "",
+        "stack": ["Tech A", "Tech B"]
+    }
+]

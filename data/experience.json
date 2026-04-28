@@ -1,0 +1,16 @@
+[
+    {
+        "position": "Position 1",
+        "company": "Company 1",
+        "start": "Start Date 1",
+        "end": "End Date 1",
+        "description": "Description of experience 1."
+    },
+    {
+        "position": "Position 2",
+        "company": "Company 2",
+        "start": "Start Date 2",
+        "end": "End Date 2",
+        "description": "Description of experience 2."
+    }
+]
