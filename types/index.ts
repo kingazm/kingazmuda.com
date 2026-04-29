@@ -3,11 +3,17 @@ export type SocialLink = {
   url: string;
 };
 
+export type TerminalEntry = {
+  command: string;
+  output: string;
+};
+
 export type Personal = {
   name: string;
   title: string;
   shortDescription: string;
   longDescription: string;
+  aboutScript: TerminalEntry[];
   socials: SocialLink[];
 };
 

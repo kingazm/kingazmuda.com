@@ -1,13 +1,13 @@
 import About from "../sections/About";
 import Experience from "../sections/Experience";
 import Projects from "../sections/Projects";
-import { Project, ExperienceEntry } from "@/types";
+import { Project, ExperienceEntry, TerminalEntry } from "@/types";
 
-export default function RightPanel({ projects, experience, longDescription }: { projects: Project[]; experience: ExperienceEntry[]; longDescription: string }) {
+export default function RightPanel({ projects, experience, aboutScript }: { projects: Project[]; experience: ExperienceEntry[]; aboutScript: TerminalEntry[] }) {
   return (
     <div>
       <section id="about" className="scroll-mt-24 mb-10">
-        <About longDescription={longDescription} />
+        <About aboutScript={aboutScript} />
       </section>
       <section id="experience" className="scroll-mt-10 mb-10">
         <Experience experience={experience} />

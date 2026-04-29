@@ -23,7 +23,7 @@ export default function Scaffold() {
 
           <main className="lg:w-[50%] lg:pt-24 ml-auto sm:pt-2">
             <RightPanel
-              longDescription={personal.longDescription}
+              aboutScript={personal.aboutScript}
               projects={projects}
               experience={experience}
             />
