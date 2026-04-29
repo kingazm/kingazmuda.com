@@ -16,6 +16,7 @@ export type Project = {
   description: string;
   link: string;
   stack: string[];
+  image?: string;
 };
 
 export type ExperienceEntry = {
