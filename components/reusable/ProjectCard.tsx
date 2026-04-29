@@ -4,7 +4,7 @@ export default function ProjectCard({ name, description, link, stack }: Project)
     return (
         <div className="mb-6 rounded-lg border border-slate-700 p-4 bg-[#1A2035] transition-transform hover:scale-102">
             <h3 className="text-lg font-bold">{name}</h3>
-            <p className="text-slate-400">{description}</p>
+            <p className="text-sm text-slate-400">{description}</p>
             {stack && stack.length > 0 && (
                 <div className="flex gap-2 mt-2 mb-2">
                     {stack.map((tech, idx) => (

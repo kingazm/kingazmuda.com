@@ -25,7 +25,7 @@
     },
     {
         "name": "Presently",
-        "description": "Desktop app for tracking focus indicators and providing insights on work habits. Built with Electron and React, it offers a user-friendly interface for monitoring productivity and identifying patterns in work and relaxation behavior. Build during Hacknarok 2026.",
+        "description": "Desktop app for tracking focus indicators and providing insights on work habits. Built with Electron and React, it offers a user-friendly interface for monitoring productivity and identifying patterns in work and relaxation behavior. Built during Hacknarok 2026.",
         "link": "https://github.com/kingazm/Presently",
         "stack": ["Electron", "React", "Typescript"]
     }
