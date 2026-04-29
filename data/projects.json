@@ -1,20 +1,32 @@
 [
     {
         "name": "JU Can Eat",
-        "description": "Description of project 1.",
-        "link": "",
-        "stack": ["Java", "Tech 2", "Tech 3"]
+        "description": "Responsive web app for centrilizing JU Ruczaj Campus restaurant menus, locations, and opening hours. Featuring custom AI-powered photo upload service and auto-translations on upload to streamline menu updates for restaurant staff.",
+        "link": "https://jucaneat.com",
+        "stack": ["Java", "Spring", "Typescript", "React", "PostgreSQL"]
     },
     {
-        "name": "Project 2",
-        "description": "Description of project 2.",
-        "link": "",
-        "stack": ["Tech A", "Tech B"]
+        "name": "CoolBeans - Smart Plantroid Experiment Platform",
+        "description": "System that makes collecting and processing plant sensor data easy, enabling researchers to focus on their experiments instead of data management.",
+        "link": "https://github.com/NPKBlackBean/webapp",
+        "stack": ["GithubActions", "Docker", "Grafana", "PostgreSQL", "RaspberryPi", "Python"]
     },
     {
-        "name": "Project 3",
-        "description": "Description of project 3.",
-        "link": "",
-        "stack": ["Tech A", "Tech B"]
+        "name": "Network Battleships Game",
+        "description": "A networked version of the classic Battleships game, allowing multiple pairs of players to compete against each other over a network connection. Implemented using Java sockets for communication and a simple command-line interface for gameplay.",
+        "link": "https://github.com/kingazm/Network-Battleships-Game",
+        "stack": ["Java", "Bash"]
+    },
+    {
+        "name": "Fortran Interpreter",
+        "description": "A simple interpreter for classic Fortran (Fortran 66/77 style).",
+        "link": "https://github.com/kingazm/fortran-interpreter",
+        "stack": ["Haskell"]
+    },
+    {
+        "name": "Presently",
+        "description": "Desktop app for tracking focus indicators and providing insights on work habits. Built with Electron and React, it offers a user-friendly interface for monitoring productivity and identifying patterns in work and relaxation behavior. Build during Hacknarok 2026.",
+        "link": "https://github.com/kingazm/Presently",
+        "stack": ["Electron", "React", "Typescript"]
     }
 ]
