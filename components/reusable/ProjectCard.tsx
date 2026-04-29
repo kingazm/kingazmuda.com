@@ -6,7 +6,7 @@ export default function ProjectCard({ name, description, link, stack }: Project)
             <h3 className="text-lg font-bold">{name}</h3>
             <p className="text-slate-400">{description}</p>
             {stack && stack.length > 0 && (
-                <div className="flex flex-wrap gap-2 mt-2 mb-2 w-6 h-6">
+                <div className="flex gap-2 mt-2 mb-2">
                     {stack.map((tech, idx) => (
                         <div key={idx} className="w-8 h-8">
                             <img src={`https://skillicons.dev/icons?i=${tech.toLowerCase()}`} alt={tech} />
