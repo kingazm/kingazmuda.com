@@ -33,6 +33,7 @@ export default function About({ aboutScript }: { aboutScript: TerminalEntry[] })
     const scrollRef = useRef<HTMLDivElement>(null);
     const terminalRef = useRef<HTMLDivElement>(null);
     const fastForwardRef = useRef(false);
+    const doneRef = useRef(false);
 
     useEffect(() => {
         terminalRef.current?.focus();
@@ -45,6 +46,7 @@ export default function About({ aboutScript }: { aboutScript: TerminalEntry[] })
         setCompleted([]);
         setCurrent("");
         setDone(false);
+        doneRef.current = false;
         fastForwardRef.current = false;
 
         async function run() {
@@ -82,6 +84,7 @@ export default function About({ aboutScript }: { aboutScript: TerminalEntry[] })
             }
             setCurrent("");
             setDone(true);
+            doneRef.current = true;
         }
 
         run();
@@ -99,7 +102,7 @@ export default function About({ aboutScript }: { aboutScript: TerminalEntry[] })
         const handler = (e: KeyboardEvent) => {
             e.preventDefault();
             if (e.key === "Enter") {
-                if (!done) {
+                if (!doneRef.current) {
                     fastForwardRef.current = true;
                     return;
                 }
