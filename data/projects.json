@@ -14,6 +14,13 @@
         "image": "/thumbnails/coolbeans.png"
     },
     {
+        "name": "Learn Your 123s",
+        "description": "An AI-powered handwriting practice app for children - draw digits on a canvas and get instant feedback from a trained recognition model, guided by an animated mascot. Supports multiple themes and settings to enhance experience and focus.",
+        "link": "https://github.com/kingazm/Learn-Your-123s",
+        "stack": ["Python", "PyTorch", "FastAPI", "React", "Typescript"],
+        "image": "/thumbnails/learnyour123s.png"
+    },
+    {
         "name": "Network Battleships Game",
         "description": "A networked version of the classic Battleships game, allowing multiple pairs of players to compete against each other over a network connection. Implemented using Java sockets for communication and a simple command-line interface for gameplay.",
         "link": "https://github.com/kingazm/Network-Battleships-Game",
