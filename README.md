@@ -4,8 +4,10 @@ Personal portfolio website built with Next.js and Tailwind CSS.
 
 ## Preview
 
-<img src="docs/screenshots/desktop.png" alt="Desktop" height="160"/>
-<img src="docs/screenshots/mobile.png" alt="Mobile" height="160"/>
+<div style="display:flex; gap:12px; align-items:flex-start;">
+  <img src="docs/screenshots/desktop.png" alt="Desktop" style="width:78%;"/>
+  <img src="docs/screenshots/mobile.png" alt="Mobile" style="width:16%";/>
+</div>
 
 ## Tech Stack
 
