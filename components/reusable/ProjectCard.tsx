@@ -4,7 +4,7 @@ export default function ProjectCard({ name, description, link, stack, image }: P
     return (
         <div className="mb-6 rounded-lg p-4 bg-[#1A2035] transition-transform hover:scale-102 flex gap-4">
             <div className="flex-1">
-                <h3 className="text-lg font-bold">{name}</h3>
+                <h3 className="text-lg font-bold text-white">{name}</h3>
                 <p className="text-sm text-slate-400 pt-1">{description}</p>
                 {stack && stack.length > 0 && (
                     <div className="flex flex-wrap lg:flex-nowrap gap-2 mt-2 mb-2">
