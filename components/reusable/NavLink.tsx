@@ -12,7 +12,7 @@ export default function NavLink({ href, display, isActive }: { href: string; dis
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
         >
-            <span className={`text-[#4F8EF7] transition-opacity duration-150 ${isActive || hovered ? "opacity-100" : "opacity-0"}`}>
+            <span aria-hidden="true" className={`text-[#4F8EF7] transition-opacity duration-150 ${isActive || hovered ? "opacity-100" : "opacity-0"}`}>
                 &gt;
             </span>
             <span className={isActive ? "text-white" : ""}>{display}</span>
