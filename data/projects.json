@@ -14,6 +14,13 @@
         "image": "/thumbnails/coolbeans.png"
     },
     {
+        "name": "NetPlotPy - Network Visualization Library",
+        "description": "A Python library for visualizing PyTorch network structures into .png files. For teaching, documenting and research.",
+        "link": "https://github.com/kingazm/NetPlotPy",
+        "stack": ["Python", "PyTorch"],
+        "image": "/thumbnails/netplotpy.png"
+    },
+    {
         "name": "Learn Your 123s",
         "description": "An AI-powered handwriting practice app for children - draw digits on a canvas and get instant feedback from a trained recognition model, guided by an animated mascot. Supports multiple themes and settings to enhance experience and focus.",
         "link": "https://github.com/kingazm/Learn-Your-123s",
