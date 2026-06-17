@@ -47,5 +47,12 @@
         "link": "https://github.com/kingazm/Presently",
         "stack": ["Electron", "React", "Typescript"],
         "image": "/thumbnails/presently.png"
+    },
+    {
+        "name": "Pulsar Star Detection Network",
+        "description": "A Multi-Layer Perceptron (MLP) built to classify astronomical signals as either genuine pulsars or background noise, addressing class imbalance and missing data through robust preprocessing techniques.",
+        "link": "https://github.com/kingazm/pulsar-stars-detection",
+        "stack": ["Python", "PyTorch"],
+        "image": "/thumbnails/pulsarstars.png"
     }
 ]
